@@ -13,7 +13,7 @@ def listItemsAPM():
     # ["Le Bonnotte Potatoes", "270.81"]]
     # print(tabulate(priceList, headers="firsrow", tablefmt="grid"))
         # input validation that loops the input if user fails to enter a valid data that is more than 1.
-        # the number that is inputted will determine the number of repetition for the following loop that
+        # the number that is inputted will determine the number of repetition for the loop after that
         # obtains the food name and weight
     while True:
         numberOfItems = int(input("How many items will you order today? "))
