@@ -23,6 +23,7 @@ def listItemsAPM():
             break
         # global keyword allows other functions to access the list
     global listOfItems 
+        # declare empty list
     listOfItems = []
     startingIndex = 0
         # prompts the user to input the food name and the desired weight using a loop 

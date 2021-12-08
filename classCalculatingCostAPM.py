@@ -14,7 +14,7 @@ class calculatingCost:
     def setCalculatedPriceAPM(self, calculatedPrice):
         self.__calculatedPrice = calculatedPrice
 
-        # private method that stores the pricelist, and assigns the price of an item according
+        # private method that stores the pricelist, and assigns the object the price according
         # to its name
     def fromPricelistAPM(self):
         if self.__name == "Dry Cured Iberian Ham":
