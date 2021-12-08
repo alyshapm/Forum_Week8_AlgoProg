@@ -28,7 +28,7 @@ def listItemsAPM():
     listOfItems = []
     startingIndex = 0
         # prompts the user to input the food name and the desired weight using a loop 
-        # in the range of the number of items the user inputted at the beginning.
+        # in the range of the number the user inputted at the beginning.
     for item in range(numberOfItems):
             # displays the nth number of item
         startingIndex += 1
